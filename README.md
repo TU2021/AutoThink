@@ -28,7 +28,7 @@ This repository implements **AutoThink**, as described in our paper:
 
 - 🧩 **Minimal Prompting** with ellipsis (`<think>\n...\n`) to activate stochastic thinking.
 - 🎯 **Multi-stage RL** to stabilize, reinforce, and prune reasoning behavior.
-- ⚙️ Integrated with the [`verl`](./verl) framework.
+- ⚙️ Integrated with the [`verl`](https://github.com/volcengine/verl) framework.
 - 📊 Benchmarked on five mathematical reasoning datasets: MATH, Minerva, Olympiad, AIME24, AMC23.
 
 ![framework2](./assets/2.png)
@@ -155,5 +155,6 @@ AutoThink achievesefficiency–accuracy trade-offs:
 ## 🔍 Acknowledgements
 
 We build and reference on the following open source trunks, and thank the following sources for their contributions to the LLM-Reasoning open source community:
+- [verl](https://github.com/volcengine/verl)
 - [DeepScaleR](https://github.com/agentica-project/rllm)
 - [ThinkPrune](https://github.com/UCSB-NLP-Chang/ThinkPrune)
