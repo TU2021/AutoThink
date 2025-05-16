@@ -1,6 +1,13 @@
 
 # 🧠 AutoThink: Adaptive Reasoning in R1-Style Models
 
+
+<p align="center">
+          🤗 <a href="https://huggingface.co/collections/SONGJUNTU/autothink-682624e1466651b08055b479">Hugging Face</a>&nbsp&nbsp | &nbsp&nbsp📑 <a href="https://huggingface.co/collections/SONGJUNTU/autothink-682624e1466651b08055b479">Paper</a>&nbsp&nbsp
+</p>
+
+
+
 **AutoThink** is a reinforcement learning framework designed to equip R1-style language models with **adaptive reasoning** capabilities. Instead of always thinking or never thinking, the model learns **when** to engage in explicit reasoning, balancing performance and efficiency.
 
 This repository implements **AutoThink**, as described in our paper:
@@ -19,6 +26,17 @@ This repository implements **AutoThink**, as described in our paper:
 - 📊 Benchmarked on five mathematical reasoning datasets: MATH, Minerva, Olympiad, AIME24, AMC23.
 
 ![framework2](./assets/2.png)
+
+---
+
+## 📁 Repository Structure
+
+```
+code-release/
+├── verl/               # Core training framework (based on verl)
+├── deepscaler/         # Data preprocessing and utility scripts
+├── scripts/            # Launch scripts and experiment configs
+```
 
 ---
 
