@@ -2,9 +2,9 @@
 # 🧠 AutoThink: Adaptive Reasoning in R1-Style Models
 
 
-<p align="center">
-          🤗 <a href="https://huggingface.co/Qwen">Hugging Face</a>&nbsp&nbsp | &nbsp&nbsp📑 <a href="https://modelscope.cn/organization/qwen">Paper</a>&nbsp&nbsp
-</p>
+<!-- <p align="center">
+          🤗 <a href="https://huggingface.co/collections/SONGJUNTU/autothink-682624e1466651b08055b479">Hugging Face</a>&nbsp&nbsp | &nbsp&nbsp📑 <a href="https://huggingface.co/collections/SONGJUNTU/autothink-682624e1466651b08055b479">Paper</a>&nbsp&nbsp
+</p> -->
 
 
 <!-- <p align="center">
@@ -138,10 +138,10 @@ bash scripts/eval/eval_model_1.5b.sh
 
 ## 📊 Results
 
-AutoThink achievesefficiency–accuracy trade-offs:
+AutoThink achievesefficiency–accuracy trade-offs, and exhibits two inference modes:
 
 ![results](./assets/3.png)
-
+![modes](./assets/4.png)
 ---
 
 <!-- ## 📄 Citation
