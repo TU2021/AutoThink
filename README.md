@@ -1,19 +1,6 @@
 
 # 🧠 AutoThink: Adaptive Reasoning in R1-Style Models
 
-
-<!-- <p align="center">
-          🤗 <a href="https://huggingface.co/collections/SONGJUNTU/autothink-682624e1466651b08055b479">Hugging Face</a>&nbsp&nbsp | &nbsp&nbsp📑 <a href="https://huggingface.co/collections/SONGJUNTU/autothink-682624e1466651b08055b479">Paper</a>&nbsp&nbsp
-</p> -->
-
-
-<!-- <p align="center">
-          💜 <a href="https://chat.qwen.ai/"><b>Qwen Chat</b></a>&nbsp&nbsp | &nbsp&nbsp🤗 <a href="https://huggingface.co/Qwen">Hugging Face</a>&nbsp&nbsp | &nbsp&nbsp🤖 <a href="https://modelscope.cn/organization/qwen">ModelScope</a>&nbsp&nbsp | &nbsp&nbsp 📑 Paper &nbsp&nbsp | &nbsp&nbsp 📑 <a href="https://qwenlm.github.io/blog/qwen3/">Blog</a> &nbsp&nbsp ｜ &nbsp&nbsp📖 <a href="https://qwen.readthedocs.io/">Documentation</a>
-<br>
-🖥️ <a href="https://huggingface.co/spaces/Qwen/Qwen3-Demo">Demo</a>&nbsp&nbsp | &nbsp&nbsp💬 <a href="https://github.com/QwenLM/Qwen/blob/main/assets/wechat.png">WeChat (微信)</a>&nbsp&nbsp | &nbsp&nbsp🫨 <a href="https://discord.gg/CV4E9rpNSD">Discord</a>&nbsp&nbsp
-</p> -->
-
-
 **AutoThink** is a reinforcement learning framework designed to equip R1-style language models with **adaptive reasoning** capabilities. Instead of always thinking or never thinking, the model learns **when** to engage in explicit reasoning, balancing performance and efficiency.
 
 This repository implements **AutoThink**, as described in our paper:
@@ -32,17 +19,6 @@ This repository implements **AutoThink**, as described in our paper:
 - 📊 Benchmarked on five mathematical reasoning datasets: MATH, Minerva, Olympiad, AIME24, AMC23.
 
 ![framework2](./assets/2.png)
-
----
-
-## 📁 Repository Structure
-
-```
-code-release/
-├── verl/               # Core training framework (based on verl)
-├── deepscaler/         # Data preprocessing and utility scripts
-├── scripts/            # Launch scripts and experiment configs
-```
 
 ---
 
@@ -75,7 +51,8 @@ python scripts/data/deepscaler_dataset.py
 
 ---
 
-## 🧠 Different Prompt Strategies
+## 💡 Different Prompt Strategies
+
 
 You can control the model's reasoning behavior by modifying the `chat_template` field in `tokenizer_config.json`. Update the value with one of the following:
 
