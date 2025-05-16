@@ -29,17 +29,6 @@ This repository implements **AutoThink**, as described in our paper:
 
 ---
 
-## 📁 Repository Structure
-
-```
-code-release/
-├── verl/               # Core training framework (based on verl)
-├── deepscaler/         # Data preprocessing and utility scripts
-├── scripts/            # Launch scripts and experiment configs
-```
-
----
-
 ## 📦 Installation
 
 Please clone the official [DeepScaleR](https://github.com/agentica-project/rllm) repository and follow its setup instructions:
