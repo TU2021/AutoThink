@@ -3,7 +3,7 @@
 
 
 <p align="center">
-          🤗 <a href="https://huggingface.co/collections/SONGJUNTU/autothink-682624e1466651b08055b479">Hugging Face</a>&nbsp&nbsp | &nbsp&nbsp📑 <a href="https://huggingface.co/collections/SONGJUNTU/autothink-682624e1466651b08055b479">Paper</a>&nbsp&nbsp
+          🤗 <a href="https://huggingface.co/collections/SONGJUNTU/autothink-682624e1466651b08055b479">Hugging Face</a>&nbsp&nbsp | &nbsp&nbsp📑 <a href="https://arxiv.org/abs/2505.10832">Paper</a>&nbsp&nbsp
 </p>
 
 
