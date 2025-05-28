@@ -3,7 +3,7 @@
 
 
 <p align="center">
-          🤗 <a href="https://huggingface.co/collections/SONGJUNTU/autothink-682624e1466651b08055b479">Hugging Face</a>&nbsp&nbsp | &nbsp&nbsp📑 <a href="https://arxiv.org/abs/2505.10832">Paper</a>&nbsp&nbsp
+          🔗 <a href="https://github.com/ScienceOne-AI/AutoThink">Codebase</a>&nbsp&nbsp | 🤗 <a href="https://huggingface.co/collections/SONGJUNTU/autothink-682624e1466651b08055b479">Hugging Face</a>&nbsp&nbsp | &nbsp&nbsp📑 <a href="https://arxiv.org/abs/2505.10832">Paper</a>&nbsp&nbsp | &nbsp&nbsp📖 <a href="https://mp.weixin.qq.com/s/qcGrNjIqU1cLSg_31wijJg"> WeChat Chinese Version</a>&nbsp&nbsp
 </p>
 
 
@@ -13,10 +13,17 @@
 This repository implements **AutoThink**, as described in our paper:
 
 > *Learning When to Think: Shaping Adaptive Reasoning in R1-Style Models via Multi-Stage RL*  
-> Anonymous Authors (Under Review)
 
 ![framework1](./assets/1.png)
 ---
+
+## 📰 News
+- ***[2025/05/28]*** Our work was featured on the **QbitAI** WeChat public account: 📖 [Chinese Version](https://mp.weixin.qq.com/s/qcGrNjIqU1cLSg_31wijJg)
+
+- ***[2025/05/27]*** We apply *AutoThink* to the SOTA 7B model [Skywork-OR1-Math-7B](https://huggingface.co/Skywork/Skywork-OR1-Math-7B). *AutoThink* reduces reasoning token usage by **56%** with **less than 2% accuracy degradation**.  We also updated the paper to fix minor issues and released the corresponding trained model.  
+
+- ***[2025/05/16]*** We release the [Code](https://github.com/ScienceOne-AI/AutoThink), [Models](https://huggingface.co/collections/SONGJUNTU/autothink-682624e1466651b08055b479), and [Paper](https://arxiv.org/abs/2505.10832) for *AutoThink*.  
+
 
 ## 🚀 Features
 
@@ -125,16 +132,22 @@ bash scripts/eval/eval_model_1.5b.sh
 AutoThink achievesefficiency–accuracy trade-offs, and exhibits two inference modes:
 
 ![results](./assets/3.png)
+![results](./assets/5.png)
 ![modes](./assets/4.png)
 ---
 
-<!-- ## 📄 Citation
+## 📄 Citation
 
 ```bibtex
-
+@article{tu2025learning,
+  title={Learning When to Think: Shaping Adaptive Reasoning in R1-Style Models via Multi-Stage RL},
+  author={Tu, Songjun and Lin, Jiahao and Zhang, Qichao and Tian, Xiangyu and Li, Linjing and Lan, Xiangyuan and Zhao, Dongbin},
+  journal={arXiv preprint arXiv:2505.10832},
+  year={2025}
+}
 ```
 
---- -->
+---
 
 ## 🔍 Acknowledgements
 
